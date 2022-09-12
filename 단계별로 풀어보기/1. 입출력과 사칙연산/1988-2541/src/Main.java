@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
-class Main{
+class Main {
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int fire=sc.nextInt();
-		System.out.println(fire-543);
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		System.out.println(num - 543);
+		sc.close();
 	}
 }
