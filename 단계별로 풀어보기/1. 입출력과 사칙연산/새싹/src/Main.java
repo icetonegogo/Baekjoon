@@ -1,4 +1,4 @@
-class Main{
+class Main {
 	public static void main(String[] args) {
 		System.out.println("         ,r'\"7");
 		System.out.println("r`-_   ,'  ,/");
@@ -6,6 +6,5 @@ class Main{
 		System.out.println("   `~\\/");
 		System.out.println("      |");
 		System.out.println("      |");
-	
 	}
 }
