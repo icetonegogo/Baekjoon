@@ -46,21 +46,20 @@ public class Main {
 }
 */
 
-import java.util.*;
 import java.io.*;
 
-class Main{
+class Main {
 	public static void main(String[] args) throws IOException {
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		int N=Integer.parseInt(br.readLine());
-		int origin=N;
-		int cnt=0;
-		while(true) {
-			
-			N=(N/10+N%10)%10+(N%10)*10;
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int N = Integer.parseInt(br.readLine());
+		int origin = N;
+		int cnt = 0;
+		while (true) {
+
+			N = (N / 10 + N % 10) % 10 + (N % 10) * 10;
 			cnt++;
-			
-			if(N==origin) {
+
+			if (N == origin) {
 				break;
 			}
 		}
